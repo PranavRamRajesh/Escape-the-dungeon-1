@@ -29,7 +29,7 @@ function preload(){
    bombImg = loadImage("hunter/bomb.png");
    gameOverImg = loadImage("hunter/Game_Over.png");
    startButtonImg = loadImage("hunter/start_button.png");
-   deathImg = loadImage("dragon/death5.png");
+   deathImg = loadImage("dragon/Death5.png");
    restartImg = loadImage("hunter/restart.png");
    birdAnimation = loadAnimation("hunter/birds_1.png","hunter/birds_2.png","hunter/birds_3.png");
    
