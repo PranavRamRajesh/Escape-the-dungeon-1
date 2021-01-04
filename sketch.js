@@ -111,9 +111,11 @@ function draw() {
 
     spawnBird();
   
-    if(keyDown("space")){
+    if(keyDown("space")|| touches.lenght>0){
       player.velocityY = -25;
       jumpSound.play();
+      touches = [];
+      
       }
 
       fill("orange") 
@@ -154,13 +156,13 @@ function draw() {
     textStyle(BOLD)
     text ("SCORE : "+score,width-200,100);
 
-    if(mousePressedOver(restart)) {
+    if(mousePressedOver(restart)||touches.length>0) {
       gameState=PLAY;
       restart.visible = false;
       gameOver.visible = false;
       score = 0;
       player.changeAnimation("run",dragonWalkingImg);
-
+      touches = [];
   }
 
 }
