@@ -94,8 +94,8 @@ function draw() {
     }
 
     textSize(20);
-    text("Our friend Oscar the dragon was captured and kept in captive by the selfish humans. help Oscar escape the human and by free",width/2-540,height/2);
-    text("Press the Space bar to start the course to set Oscar free!!",width/2-180,height/2+50);
+    text("Our friend Oscar the dragon was captured and kept in captive by the selfish humans. help Oscar escape the humans and be free",width/2-540,height/2);
+    text("Press the Space bar or tap the screen to start the course to set Oscar free!!",width/2-180,height/2+50);
     text("Coding done by Pranav Ram Rajesh",width/2-120,height/2+100)
     player.visible = false;
     
